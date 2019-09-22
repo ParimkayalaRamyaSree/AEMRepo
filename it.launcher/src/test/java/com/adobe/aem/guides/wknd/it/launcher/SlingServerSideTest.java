@@ -29,6 +29,7 @@ implements SlingRemoteTestParameters, SlingTestsCountChecker {
     
     public static final String TEST_SELECTOR = "com.adobe.aem.guides.wknd.it.tests";
     public static final int TESTS_AT_THIS_PATH = 1;
+	public static final int TESTS_AT_THIS_PATH_ONE = 1;
     
     public void checkNumberOfTests(int numberOfTestsExecuted) {
         assertEquals(TESTS_AT_THIS_PATH, numberOfTestsExecuted);
