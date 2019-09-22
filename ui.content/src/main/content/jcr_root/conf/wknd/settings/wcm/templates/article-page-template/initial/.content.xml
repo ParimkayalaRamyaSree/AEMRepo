@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:template="/conf/wknd/settings/wcm/templates/article-page-template"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wknd/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2019-08-17T21:03:51.359+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2019-08-17T21:06:11.802+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2019-08-17T22:51:03.923+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <testcomponent
+                    jcr:created="{Date}2019-08-17T22:42:43.875+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-17T22:42:43.875+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/testcomponent"/>
+                <testcomponent_1155480121
+                    jcr:created="{Date}2019-08-17T22:50:56.059+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-17T22:50:56.059+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wknd/components/content/testcomponent"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>
