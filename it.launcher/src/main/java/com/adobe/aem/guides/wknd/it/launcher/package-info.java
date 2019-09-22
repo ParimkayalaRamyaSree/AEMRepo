@@ -13,5 +13,6 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
+//test123
 // this file simply ensures that the resulting jar is not empty - see issue #30
 package com.adobe.aem.guides.wknd.it.launcher;
