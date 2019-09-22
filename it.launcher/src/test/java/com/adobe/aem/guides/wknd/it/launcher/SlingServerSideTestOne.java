@@ -24,12 +24,12 @@ import org.junit.runner.RunWith;
 
 /** Run some server-side tests using the Sling JUnit servlet */
 @RunWith(SlingRemoteTestRunner.class)
-public class SlingServerSideTest extends SlingServerSideTestsBase 
+public class SlingServerSideTestOne extends SlingServerSideTestsBase 
 implements SlingRemoteTestParameters, SlingTestsCountChecker {
     
     public static final String TEST_SELECTOR = "com.adobe.aem.guides.wknd.it.tests";
     public static final int TESTS_AT_THIS_PATH = 1;
-	public static final int TESTS_AT_THIS_PATH_TWO = 2;
+	public static final int TESTS_AT_THIS_PATH_ONE = 1;
     
     public void checkNumberOfTests(int numberOfTestsExecuted) {
         assertEquals(TESTS_AT_THIS_PATH, numberOfTestsExecuted);
